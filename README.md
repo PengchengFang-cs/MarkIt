@@ -1,4 +1,10 @@
-# MarkIt
+# MarkIt: Training-Free Visual Markers for Precise Video Temporal Grounding
+
+[![arXiv](https://img.shields.io/badge/arXiv-2604.25886-b31b1b.svg)](https://arxiv.org/abs/2604.25886)
+
+Pengcheng Fang, Yuxia Chen, Xiaohao Cai
+
+Paper: [arXiv:2604.25886](https://arxiv.org/abs/2604.25886) | [PDF](https://arxiv.org/pdf/2604.25886)
 
 MarkIt is a training-free visual prompting pipeline for video temporal grounding. It builds on NumPro by combining frame-number prompts with object-centric visual marks: target nouns are rendered as color-coded masks on video frames, and the model is instructed to localize the queried moment by returning frame indices.
 
@@ -129,3 +135,16 @@ This codebase is based on NumPro:
 - Repository: `https://github.com/yongliang-wu/NumPro`
 
 We thank the NumPro authors and the LongVA ecosystem for their excellent work.
+
+## Citation
+
+If you find this repository useful, please cite:
+
+```bibtex
+@article{fang2026markit,
+  title={MarkIt: Training-Free Visual Markers for Precise Video Temporal Grounding},
+  author={Fang, Pengcheng and Chen, Yuxia and Cai, Xiaohao},
+  journal={arXiv preprint arXiv:2604.25886},
+  year={2026}
+}
+```
