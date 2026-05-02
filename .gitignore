@@ -1,0 +1,52 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.DS_Store
+
+# Local environments
+.env
+.venv/
+env/
+venv/
+
+# Model checkpoints and local weights
+checkpoints/
+pretrained/
+weights/
+*.bin
+*.safetensors
+*.ckpt
+*.pt
+*.pth
+
+# Data, masks, overlays, videos, and generated artifacts
+data/
+datasets/
+videos/
+overlays/
+masks/
+mask/
+outputs/
+results/
+reports/
+logs/
+temp/
+tmp/
+*.mp4
+*.avi
+*.mov
+*.mkv
+*.webm
+*.npy
+*.npz
+*.jsonl
+*.log
+
+# Generated figures
+*.pdf
+*.png
+*.jpg
+*.jpeg
+*.tif
+*.tiff
